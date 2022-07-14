@@ -135,6 +135,9 @@ p {
 
 .header-contacts-item {
   margin-right: 50px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .header-mail,
@@ -155,13 +158,17 @@ p {
   flex-wrap: nowrap;
 }
 
-
 .header-mail:hover,
 .header-phone:hover,
 .header-mail:focus,
-.header-phone:focus {
+.header-phone:focus{
   color: var(--accent-text-color);
 }
+
+.header-icon {
+  fill: var(--accent-color);
+}
+
 
 /*Main page*/
 
