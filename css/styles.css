@@ -166,6 +166,14 @@ p {
 }
 
 .header-icon {
+  fill: #757575;
+  display: block;
+ 
+}
+
+.header-icon:hover,
+.header-icon:focus
+ {
   fill: var(--accent-color);
 }
 
