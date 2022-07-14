@@ -148,6 +148,24 @@ p {
   color: var(--secondary-text-color);
 }
 
+.header-contacts-item {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.header-mail::before {
+  content: '';
+  display: block;
+  outline: 2px solid red;
+  /* background-image: url(../images/header/envelope.svg);
+  background-repeat: no-repeat;
+  background-size: contain; */
+}
+
+.header-phone::before {
+
+}
+
 .header-mail:hover,
 .header-phone:hover,
 .header-mail:focus,
