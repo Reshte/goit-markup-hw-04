@@ -127,6 +127,7 @@ p {
 .header-link:focus {
   color: var(--accent-text-color);
 }
+
 .header-contacts {
   display: flex;
   margin-left: auto;
@@ -135,6 +136,7 @@ p {
 .header-contacts-item {
   margin-right: 50px;
 }
+
 .header-mail,
 .header-phone {
   font-weight: 500;
@@ -153,18 +155,6 @@ p {
   flex-wrap: nowrap;
 }
 
-.header-mail::before {
-  content: '';
-  display: block;
-  outline: 2px solid red;
-  /* background-image: url(../images/header/envelope.svg);
-  background-repeat: no-repeat;
-  background-size: contain; */
-}
-
-.header-phone::before {
-
-}
 
 .header-mail:hover,
 .header-phone:hover,
@@ -180,9 +170,17 @@ p {
 .hero-section {
   background-color: var(--secondary-bgc-color);
   width: 1600px;
-  background-image: url(../images/hero/hero-bg.jpg);
   margin-left: auto;
   margin-right: auto;
+   background-image:  linear-gradient(
+  to bottom,
+  rgba(0, 0, 0, 1),
+  rgba(47, 48, 58, 0.4)
+ ),
+    url('../images/hero/hero-bg.jpg');
+    background-repeat: no-repeat;
+  background-position:  center, center;
+  
 }
 
 .hero-container {
