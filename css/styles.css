@@ -462,11 +462,33 @@ line-height: calc(17 / 14);
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--white-text-color);
+margin-bottom: 20px;
 }
+
 .footer-list {
   display: flex;
-  
+  align-content: center;
+  gap: 10px;
 }
+
+
+.footer-social-link {
+width: 44px;
+height: 44px;
+border-radius: 50%;
+background-color: rgba(255, 255, 255, 0.1);
+color: var(--white-text-color)
+}
+
+.footer-social-link:focus,
+.footer-social-link:focus {
+  background-color: #2196F3;
+}
+
+.footer-icon {
+  fill: currentColor;
+}
+
 /*portfolio Page*/
 
 .filter-btn {
