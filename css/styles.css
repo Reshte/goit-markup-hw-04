@@ -165,7 +165,7 @@ p {
   color: var(--accent-text-color);
 }
 
-.header-icon {
+/* .header-icon {
   fill: #757575;
   display: block;
  
@@ -175,7 +175,7 @@ p {
 .header-icon:focus
  {
   fill: var(--accent-color);
-}
+} */
 
 
 /*Main page*/
@@ -189,7 +189,7 @@ p {
   margin-right: auto;
    background-image:  linear-gradient(
   to bottom,
-  rgba(0, 0, 0, 1),
+  rgba(47, 48, 58, 0.4),
   rgba(47, 48, 58, 0.4)
  ),
     url('../images/hero/hero-bg.jpg');
@@ -246,6 +246,16 @@ p {
 
 .about-list {
   display: flex;
+  gap: 30px;
+}
+
+.thumb-about{
+  width: 270px;
+  min-height: 120px;
+  background-color: #F5F4FA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 30px;
 }
 

@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <!--Header section-->
     <header class="header">
       <div class="container header-container">
         <nav class="header-nav">
@@ -39,22 +40,23 @@
 
         <ul class="header-contacts list">
           <li class="header-contacts-item">
-            <svg class="header-icon" width="16px" height="12px">
-              <use href="./images/symbol-defs.svg#icon-mail"></use>
+              <a class="header-mail link" href="mailto:info@devstudio.com">
+                <svg class="header-icon" width="16" height="12">
+              <use href="./images/icons.svg#icon-mail"></use>
             </svg>
-            <a class="header-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            info@devstudio.com</a>
           </li>
           <li class="header-contacts-item">
-            <svg class="header-icon" width="10px" height="16px">
-              <use href="./images/symbol-defs.svg#icon-phone"></use>
+            <svg class="header-icon" width="10" height="16">
+              <use href="./images/icons.svg#icon-phone"></use>
             </svg>
             <a class="header-phone link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
       </div>
     </header>
-
+    
     <main>
-      <!--Него section-->
+    <!--Него section-->
       <section class="hero-section">
         <div class="container hero-container">
           <h1 class="hero-title">Эффективные решения<br> для вашего бизнеса</h1>
@@ -63,11 +65,16 @@
         </div>
       </section>
 
-      <!--About section-->
+    <!--About section-->
       <section class="about-section section">
         <div class="container about-container" >
           <ul class="about-list list">
             <li class="about-item">
+              <div class="thumb-about">
+                <svg class="about-icon" width="70" height="70">
+                <use href="./images/icons.svg#icon-antenna"></use>
+               </svg>
+              </div>
               <h3 class="about-title">Внимание к деталям</h3>
               <p class="about-desc">
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
@@ -75,6 +82,11 @@
             </li>
 
             <li class="about-item">
+              <div class="thumb-about">
+                <svg class="about-icon" width="70" height="70">
+                <use href="./images/icons.svg#icon-clock"></use>
+               </svg>
+              </div>
               <h3 class="about-title">Пунктуальность</h3>
               <p class="about-desc">
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
@@ -82,6 +94,11 @@
             </li>
 
             <li class="about-item">
+              <div class="thumb-about">
+                  <svg class="about-icon" width="70" height="70">
+                    <use href="./images/icons.svg#icon-diagram"></use>
+                  </svg>
+              </div>
               <h3 class="about-title">Планирование</h3>
               <p class="about-desc">
                 Равным образом консультация с широким активом в значительной степени обуславливает.
@@ -89,6 +106,11 @@
             </li>
 
             <li class="about-item">
+               <div class="thumb-about">
+                  <svg class="about-icon" width="70" height="70">
+                    <use href="./images/icons.svg#icon-astronaut"></use>
+                  </svg>
+              </div>
               <h3 class="about-title">Современные технологии</h3>
               <p class="about-desc">
                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.
@@ -98,7 +120,7 @@
         </div>
       </section>
 
-      <!--Occupation section-->
+    <!--Occupation section-->
       <section class="occupation-section section">
         <div class="container occupation-container">
           <h2 class="section-title">Чем мы занимаемся</h2>
@@ -136,7 +158,7 @@
         </div>
       </section>
 
-      <!--Teem section-->
+    <!--Teem section-->
       <section class="team-section section">
         <div class="container team-container">
           <h2 class="section-title">Наша команда</h2>
@@ -153,6 +175,12 @@
               <h3 class="team-title">Игорь Демьяненко</h3>
               <span class="team-subtitle">Product Designer</span>
               </div>
+              <a href="https://www.instagram.com/" class="team-social-link link"  rel="noopener noreferrer"
+                      aria-label="instagram" ></a>
+              <a href="https://twitter.com/" class="team-social-link link"></a>
+              <a href="https://uk-ua.facebook.com/" class="team-social-link link"  rel="noopener noreferrer"
+                      aria-label="facebook"></a>
+              <a href="https://www.linkedin.com/" class="team-social-link link"></a>
             </li>
 
             <li class="team-item">
@@ -199,7 +227,7 @@
           </ul>
         </div>
       </section>
-      <!--Clients-section-->
+    <!--Clients-section-->
     <section class="clients-section section">
       <div class="container clients-container">
         <h2>Постоянные клиенты</h2>
@@ -214,7 +242,7 @@
      </div>
    </section>
   </main>
-
+    <!--Footer section-->
     <footer class="footer">
       <div class="container footer-container">
         <a class="logo-footer link" href="./index.html"
