@@ -48,7 +48,7 @@ p {
 
 .container {
   width: 1200px;
-  outline: 1px dashed red;
+  /* outline: 1px dashed red; */
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -58,7 +58,7 @@ p {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-  outline: 1px solid blue;
+  /* outline: 1px solid blue; */
 }
 
 .section-title {
@@ -151,6 +151,9 @@ p {
   padding-bottom: 32px;
 
   color: var(--secondary-text-color);
+
+  display: flex;
+  align-items: center;
 }
 
 .header-contacts-item {
@@ -165,17 +168,11 @@ p {
   color: var(--accent-text-color);
 }
 
-/* .header-icon {
-  fill: #757575;
-  display: block;
- 
+.header-icon {
+margin-right: 10px;
+fill:  currentColor;
 }
 
-.header-icon:hover,
-.header-icon:focus
- {
-  fill: var(--accent-color);
-} */
 
 /*Main page*/
 
@@ -183,7 +180,7 @@ p {
 
 .hero-section {
   background-color: var(--secondary-bgc-color);
-  width: 1600px;
+  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
@@ -336,7 +333,7 @@ p {
   align-items: center;
   justify-content: center;
   gap: 22px;
-}
+  }
 
 .team-social-link {
   display: flex;
@@ -389,6 +386,7 @@ p {
 
 .clients-link:hover {
   color: var(--accent-text-color);
+  border: 1px solid var(--accent-text-color);
 }
 
 /*Footer*/
