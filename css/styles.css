@@ -161,7 +161,7 @@ p {
 .header-mail:hover,
 .header-phone:hover,
 .header-mail:focus,
-.header-phone:focus{
+.header-phone:focus {
   color: var(--accent-text-color);
 }
 
@@ -177,7 +177,6 @@ p {
   fill: var(--accent-color);
 } */
 
-
 /*Main page*/
 
 /*Неrо section*/
@@ -187,21 +186,15 @@ p {
   width: 1600px;
   margin-left: auto;
   margin-right: auto;
-   background-image:  linear-gradient(
-  to bottom,
-  rgba(47, 48, 58, 0.4),
-  rgba(47, 48, 58, 0.4)
- ),
+  background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url('../images/hero/hero-bg.jpg');
-    background-repeat: no-repeat;
-  background-position:  center, center;
-  
+  background-repeat: no-repeat;
+  background-position: center, center;
 }
 
 .hero-container {
   padding-top: 200px;
   padding-bottom: 200px;
-  
 }
 
 .hero-title {
@@ -249,14 +242,15 @@ p {
   gap: 30px;
 }
 
-.thumb-about{
+.thumb-about {
   width: 270px;
   min-height: 120px;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 30px;
+  margin-bottom: 30px;
 }
 
 .about-title {
@@ -320,6 +314,7 @@ p {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+  margin-bottom: 16px;
 }
 
 .team-list {
@@ -338,7 +333,57 @@ p {
 
 .socials {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
 }
+
+.team-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  /* outline: 1px solid red; */
+  border-radius: 50%;
+  color: #afb1b8;
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+.social-icon {
+  fill: currentColor;
+}
+
+/*clients section*/
+
+.clients-list {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+   gap: 30px;
+}
+
+.clients-item {
+  display: flex;
+ 
+}
+
+.clients-link {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  color: #AFB1B8;
+}
+
 
 /*Footer*/
 
@@ -346,6 +391,7 @@ p {
   background-color: var(--secondary-bgc-color);
   padding-top: 60px;
   padding-bottom: 60px;
+  display: flex;
 }
 
 .footer-address {
@@ -489,7 +535,8 @@ p {
 }
 
 .portfolio-item:hover {
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-wrapper {
