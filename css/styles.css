@@ -38,7 +38,7 @@ p {
 
 .link {
   text-decoration: none;
-}
+  }
 
 .list {
   list-style: none;
@@ -243,6 +243,8 @@ fill:  currentColor;
   width: 270px;
   min-height: 120px;
   background-color: #f5f4fa;
+  border-radius: 4px;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -384,7 +386,9 @@ fill:  currentColor;
   fill: currentColor;
 }
 
-.clients-link:hover {
+.clients-link:hover,
+.clients-link:focus
+ {
   color: var(--accent-text-color);
   border: 1px solid var(--accent-text-color);
 }
@@ -404,17 +408,17 @@ fill:  currentColor;
   gap: 70px;
 }
 
-.footer-address {
-  margin-top: 20px;
-}
-
 .logo-footer {
+  display: block;
+
   color: var(--white-text-color);
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+
+  margin-bottom: 20px;
 }
 
 .footer-contacts,
@@ -427,7 +431,8 @@ fill:  currentColor;
 }
 
 .footer-address a {
-  margin-bottom: 8px;
+  display: block;
+  margin-bottom: 9px;
 }
 
 .footer-address a:last-child {
